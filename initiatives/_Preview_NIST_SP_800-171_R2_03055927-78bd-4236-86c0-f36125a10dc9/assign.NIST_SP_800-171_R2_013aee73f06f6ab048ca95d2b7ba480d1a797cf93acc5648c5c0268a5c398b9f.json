@@ -1,0 +1,120 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "NIST SP 800-171 R2",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/03055927-78bd-4236-86c0-f36125a10dc9",
+  "scope": "/subscriptions/3ba2f962-c2f7-4e95-b8d3-ea3f316f3c80",
+  "notScopes": [],
+  "parameters": {
+   "membersToExcludeInLocalAdministratorsGroup": {
+    "value": "alans;aliciat;allieb"
+   },
+   "membersToIncludeInLocalAdministratorsGroup": {
+    "value": "kjohnson"
+   },
+   "listOfLocationsForNetworkWatcher": {
+    "value": [
+     "eastus"
+    ]
+   },
+   "logAnalyticsWorkspaceIDForVMAgents": {
+    "value": "699f5c0c-4322-4f10-83c5-defea60125f1"
+   },
+   "pHPLatestVersionForAppServices": {
+    "value": "7.3"
+   },
+   "windowsImagesToAddToLogAgentAuditScope": {
+    "value": []
+   },
+   "linuxImagesToAddToLogAgentAuditScope": {
+    "value": []
+   },
+   "javaLatestVersionForAppServices": {
+    "value": "11"
+   },
+   "WindowsPythonLatestVersionForAppServices": {
+    "value": "3.6"
+   },
+   "linuxPythonLatestVersionForAppServices": {
+    "value": "3.8"
+   },
+   "listOfResourceTypesForDiagnosticLogs": {
+    "value": [
+     "Microsoft.AnalysisServices/servers",
+     "Microsoft.ApiManagement/service",
+     "Microsoft.Network/applicationGateways",
+     "Microsoft.Automation/automationAccounts",
+     "Microsoft.ContainerInstance/containerGroups",
+     "Microsoft.ContainerRegistry/registries",
+     "Microsoft.ContainerService/managedClusters",
+     "Microsoft.Batch/batchAccounts",
+     "Microsoft.Cdn/profiles/endpoints",
+     "Microsoft.CognitiveServices/accounts",
+     "Microsoft.DocumentDB/databaseAccounts",
+     "Microsoft.DataFactory/factories",
+     "Microsoft.DataLakeAnalytics/accounts",
+     "Microsoft.DataLakeStore/accounts",
+     "Microsoft.EventGrid/eventSubscriptions",
+     "Microsoft.EventGrid/topics",
+     "Microsoft.EventHub/namespaces",
+     "Microsoft.Network/expressRouteCircuits",
+     "Microsoft.Network/azureFirewalls",
+     "Microsoft.HDInsight/clusters",
+     "Microsoft.Devices/IotHubs",
+     "Microsoft.KeyVault/vaults",
+     "Microsoft.Network/loadBalancers",
+     "Microsoft.Logic/integrationAccounts",
+     "Microsoft.Logic/workflows",
+     "Microsoft.DBforMySQL/servers",
+     "Microsoft.Network/networkInterfaces",
+     "Microsoft.Network/networkSecurityGroups",
+     "Microsoft.DBforPostgreSQL/servers",
+     "Microsoft.PowerBIDedicated/capacities",
+     "Microsoft.Network/publicIPAddresses",
+     "Microsoft.RecoveryServices/vaults",
+     "Microsoft.Cache/redis",
+     "Microsoft.Relay/namespaces",
+     "Microsoft.Search/searchServices",
+     "Microsoft.ServiceBus/namespaces",
+     "Microsoft.SignalRService/SignalR",
+     "Microsoft.Sql/servers/databases",
+     "Microsoft.Sql/servers/elasticPools",
+     "Microsoft.StreamAnalytics/streamingjobs",
+     "Microsoft.TimeSeriesInsights/environments",
+     "Microsoft.Network/trafficManagerProfiles",
+     "Microsoft.Compute/virtualMachines",
+     "Microsoft.Compute/virtualMachineScaleSets",
+     "Microsoft.Network/virtualNetworks",
+     "Microsoft.Network/virtualNetworkGateways"
+    ]
+   },
+   "minimumTLSVersionForWindowsServers": {
+    "value": "1.2"
+   }
+  },
+  "description": "",
+  "metadata": {
+   "assignedBy": "Kurt Johnson",
+   "parameterScopes": {
+    "listOfLocationsForNetworkWatcher": "/subscriptions/3ba2f962-c2f7-4e95-b8d3-ea3f316f3c80"
+   },
+   "createdBy": "ffb2e5a9-998e-49fb-8b5f-cb0a43e8be00",
+   "createdOn": "2021-01-15T17:44:07.0169673Z",
+   "updatedBy": "519ff46b-bef8-4d55-aa4f-85327f137daa",
+   "updatedOn": "2021-01-15T18:15:17.3531101Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "identity": {
+  "principalId": "f834ce92-8fbb-496e-bc88-866295d070e6",
+  "tenantId": "0128a9b7-0e70-4124-8d52-7f5dd883fc8b",
+  "type": "SystemAssigned"
+ },
+ "id": "/subscriptions/3ba2f962-c2f7-4e95-b8d3-ea3f316f3c80/providers/Microsoft.Authorization/policyAssignments/013aee73f06f6ab048ca95d2b7ba480d1a797cf93acc5648c5c0268a5c398b9f",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "013aee73f06f6ab048ca95d2b7ba480d1a797cf93acc5648c5c0268a5c398b9f",
+ "location": "eastus"
+}
